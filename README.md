@@ -22,7 +22,7 @@ Dim wkb As Workbook
     wkb.Sheets(1).Range("A1").PasteSpecial xlPasteAll
     wkb.Sheets(1).Name = Sheet1.Range("Z" & loopcounter).Value
 
-    wkb.SaveAs "E:\Loan Adjustment_Micronsurance" & Sheet1.Range("Z" & loopcounter).Value & ".xlsx"
+    wkb.SaveAs "এখানে ফাইল টা কোন লোকেশনে সেভ হবে তা লিখতে হবে" & Sheet1.Range("Z" & loopcounter).Value & ".xlsx"
     wkb.Close
     Application.CutCopyMode = False
     Next loopcounter
