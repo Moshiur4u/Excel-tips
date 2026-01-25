@@ -2,7 +2,8 @@
 
 ---
 
-Option Explicit
+## Option Explicit
+
 Sub Split_Master()
 Dim iRow As Integer
 Dim loopcounter As Integer
